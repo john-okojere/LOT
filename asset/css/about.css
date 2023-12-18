@@ -1,10 +1,10 @@
 .hero{
-    background: url(../img/service/Group_2.png) !important;
     text-align: center;
     background-position: center;
     background-size: cover;
-    min-height: 170px;
     display: block;
+    background: none;
+    min-height: fit-content;
 }
 .hero .text{
     justify-content: center;
@@ -17,8 +17,14 @@
 .siloam .gif > div {
     width:365px;
 }
+.about{
+    text-align: center;
+}
 @media screen and (min-width:960px) {
 .siloam .gif > div {
     width: 550px;
+}
+section{
+    margin-top: 3rem !important;
 }
 }

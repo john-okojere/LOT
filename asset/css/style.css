@@ -43,6 +43,11 @@ nav .list li{
     padding-left: 5px;
     padding-right: 5px;
 }
+nav .list li:last-child a{
+    border: 2px #000 solid;
+    padding:0.5rem 1rem;
+    margin-top: 5px;
+}
 nav .list li.active{
     border-bottom: 1px solid #000;
 }

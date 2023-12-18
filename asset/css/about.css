@@ -1,0 +1,24 @@
+.hero{
+    background: url(../img/service/Group_2.png) !important;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    min-height: 170px;
+    display: block;
+}
+.hero .text{
+    justify-content: center;
+    padding: 2rem;
+}
+.hero div h1{
+    text-align: center;
+    text-transform: capitalize;
+}
+.siloam .gif > div {
+    width:365px;
+}
+@media screen and (min-width:960px) {
+.siloam .gif > div {
+    width: 550px;
+}
+}

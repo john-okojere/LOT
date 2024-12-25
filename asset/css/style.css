@@ -127,7 +127,7 @@ section{
 
 .wwd ul li:nth-child(2), .wwd ul li:nth-child(4){
     border: 2px #000 solid;
-    background-color: grey;
+    background-color: rgb(108, 132, 197);
     color: #fff;
     padding:1.5rem ;
     display: flex;

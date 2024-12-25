@@ -127,7 +127,7 @@ section{
 
 .wwd ul li:nth-child(2), .wwd ul li:nth-child(4){
     border: 2px #000 solid;
-    background-color: rgb(108, 132, 197);
+    background-color: rgb(96, 84, 168);
     color: #fff;
     padding:1.5rem ;
     display: flex;
@@ -167,6 +167,7 @@ section{
 .vision .images{
     display: flex;
     gap: 1rem;
+    object-fit: cover;
     width: 60%;
 }
 
@@ -218,14 +219,14 @@ section{
     font-size: 24px;
 }
 .activites ul li:nth-child(2){
-    background-image: url(../img/service/385A6648.JPG);
+    background-image: url(../img/service/word.jpg);
     background-size: cover;
     background-position: center;
     color: #fff;
 }
 
 .activites ul li:nth-child(1){
-    background-image: url(../img/service/IMG_6706.JPG);
+    background-image: url(../img/service/prayer.JPG);
     background-size: cover;
     background-position:center;
     color: #fff;

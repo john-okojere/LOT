@@ -17,3 +17,18 @@ document.addEventListener('DOMContentLoaded', function () {
         })
         .catch(error => console.error('Error fetching data:', error));
 });
+
+const currentPage =
+window.location.pathname.split("/").pop();
+
+const navLinks =
+document.querySelectorAll("header div nav div ul li a");
+
+navLinks.forEach((link) => {
+    const href = link.getAttribute("href");
+    if (href === currentPage || (href === "index.html" && currentPage === "")) {
+        link.classList.add("active");
+    } else {
+        link.classList.remove("active");
+    }
+});
